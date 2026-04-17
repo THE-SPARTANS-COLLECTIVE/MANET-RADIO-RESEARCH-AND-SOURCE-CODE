@@ -3,7 +3,7 @@
 
 ---
 
-## 1. STRATEGIC MISSION & RESEARCH OVERVIEW
+## 1. RESEARCH OVERVIEW
 The **MANET Radio Research Framework** is a multi-disciplinary initiative designed to architect command-and-control (C2) resilience in denied, degraded, and disrupted environments (D3E). Traditional centralized communication architectures represent single points of failure; this framework provides a sovereign, self-healing alternative through decentralized, autonomous mesh topology.
 
 ### 1.1 Stochastic Waveform Modeling & Propagation Determinants
@@ -24,7 +24,7 @@ To support high-reliability communication in Non-Line-of-Sight (NLOS) scenarios,
 
 ---
 
-## 2. MAC LAYER ARCHITECTURE: TEMPORAL COORDINATION
+## 2. MEDIUM ACCESS CONTROL (MAC) LAYER ARCHITECTURE
 
 ### 2.1 DCF State Machine & Inter-Frame Spacing
 The Medium Access Control (MAC) layer governs the "Listen Before Talk" (LBT) mechanism. Research in `02_MAC_State_Machine_Logic.md` details the exact microsecond timings required for synchronization across a distributed mesh:
